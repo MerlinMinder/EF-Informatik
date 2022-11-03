@@ -1,0 +1,19 @@
+{
+  "merlin.coding": {
+    "name": "merlin.coding",
+    "stats": {
+      "health": 100,
+      "damage": 10,
+      "level": 1,
+      "xp": 0,
+      "coins": 10
+    },
+    "gear": {
+      "weapon": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggins": null,
+      "boots": null
+    }
+  }
+}
