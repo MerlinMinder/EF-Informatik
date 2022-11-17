@@ -12,16 +12,13 @@ class Player(object):
         self.channel = message.channel
 
     async def hello(self):
-        await self.channel.send(sl["join"])
-        await self.channel.send(sl["help"])
+        await self.channel.send(sl["join"] + sl["help"])
 
     async def showstats(self):
-        await self.channel.send(sl["stats"])
-        await self.channel.send(str(self.stats))
+        await self.channel.send(sl["stats"] + str(self.stats))
 
     async def showgear(self):
-        await self.channel.send(sl["gear"])
-        await self.channel.send(str(self.gear))
+        await self.channel.send(sl["gear"] + str(self.gear))
 
     async def increasexp(self, xp):
         self.stats["xp"] += xp
@@ -35,4 +32,7 @@ class Player(object):
             self.stats["damage"] += 2
             self.stats["coins"] += 10
             await self.channel.send(sl["levelup"])
-            await self.showstats()
+        await self.showstats()
+
+    async def fight(self):
+        return await self.channel.send(sl["fight"])

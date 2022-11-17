@@ -16,5 +16,6 @@ press $C to continue with the story
     """,
     "stats": "Your current stats are: ",
     "gear": "Your equipped gear is: ",
-    "levelup": "You leveled up! +2 damage, +10 health, +10 coins"
+    "levelup": "You leveled up! +2 damage, +10 health, +10 coins",
+    "fight": "Fight boy"
 }
