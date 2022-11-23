@@ -1,5 +1,6 @@
 import discord
 import copy
+import os
 from Keys import token
 from Save import getPlayers, savePlayers
 from Lines import lines
@@ -387,4 +388,7 @@ class MyClient(discord.Client):
 if __name__ == "__main__":
     # create client and run with discord server token
     client = MyClient(intents=intents)
-    client.run(token)
+    try:
+        client.run(token)
+    except Exception as e:
+        print("No token has been set\nSet a token by running Settoken.py and entering your copied token there")
