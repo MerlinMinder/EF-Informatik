@@ -1,6 +1,6 @@
 import random
 from Lines import lines
-from Enemyy import Enemy
+from Enemy import Enemy
 from Values import *
 
 

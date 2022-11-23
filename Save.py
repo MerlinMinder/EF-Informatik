@@ -1,5 +1,5 @@
 import json
-from Playerr import Player
+from Player import Player
 
 """
 Saves and loads the Player() objects of each member in the server
