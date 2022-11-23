@@ -40,8 +40,14 @@ python3 -m pip install discord
 
 run the code below and paste your token when the text appears
 
+#### Windows
 ```
-Settoken.py
+py Settoken.py
+```
+
+#### Unix/macOS
+```
+python3 Settoken.py
 ```
 
 ### Running the bot
