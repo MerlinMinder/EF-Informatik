@@ -47,6 +47,7 @@ Settoken.py
 ### Running the bot
 
 Enter this code to run the bot
+
 To stop it press ctrl+c in the terminal
 
 #### Windows
