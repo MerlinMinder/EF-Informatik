@@ -59,3 +59,5 @@ py Bot.py
 ```
 python3 Bot.py
 ```
+
+Have Fun!
