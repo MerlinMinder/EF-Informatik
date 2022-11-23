@@ -1,9 +1,9 @@
 import discord
 import copy
 from Keys import token
-from Save import getPlayers, savePlayers
+from Savee import getPlayers, savePlayers
 from Lines import lines
-from Player import Player
+from Playerr import Player
 from Values import *
 
 """
