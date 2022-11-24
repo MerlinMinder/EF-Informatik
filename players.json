@@ -2,130 +2,32 @@
   {
     "name": "merlin.coding",
     "stats": {
-      "health": 1049,
-      "maxhealth": 1430,
-      "damage": 230,
-      "level": 111,
-      "xp": 748,
-      "coins": 3470
+      "health": 97,
+      "maxhealth": 110,
+      "damage": 12,
+      "level": 2,
+      "xp": 1000,
+      "coins": 2000
     },
     "equipment": {
       "weapon": {
-        "type": "warhammer",
-        "cost": 1300,
-        "attack": "kasmashed",
-        "damage": 230,
-        "durability": 8
+        "type": "stick",
+        "cost": 1,
+        "attack": "poked",
+        "damage": 5,
+        "durability": 10
       },
-      "potions": [
-        {
-          "type": "dragon",
-          "effect": " **Full** Health + Evasion chance",
-          "cost": 100
-        },
-        {
-          "type": "dragon",
-          "effect": " **Full** Health + Evasion chance",
-          "cost": 100
-        },
-        {
-          "type": "dragon",
-          "effect": " **Full** Health + Evasion chance",
-          "cost": 100
-        },
-        {
-          "type": "dragon",
-          "effect": " **Full** Health + Evasion chance",
-          "cost": 100
-        }
-      ]
-    },
-    "gear": {
-      "helmet": {
-        "type": "helmet",
-        "health": 40,
-        "cost": 200
-      },
-      "chestplate": {
-        "type": "chestplate",
-        "health": 70,
-        "cost": 350
-      },
-      "leggins": {
-        "type": "leggins",
-        "health": 60,
-        "cost": 300
-      },
-      "boots": {
-        "type": "boots",
-        "health": 30,
-        "cost": 150
-      }
-    },
-    "attacktype": "kasmashed",
-    "extraxp": 0,
-    "classtype": "\ud83d\udde1\ufe0f",
-    "evasion": 1
-  },
-  {
-    "name": "Extensus",
-    "stats": {
-      "health": 288,
-      "maxhealth": 810,
-      "damage": 105.19999999999989,
-      "level": 63,
-      "xp": 334,
-      "coins": 73
-    },
-    "equipment": {
-      "weapon": {
-        "type": "Holy staff",
-        "cost": 400,
-        "attack": "vanquished",
-        "damage": 95,
-        "durability": 8
-      },
-      "potions": [
-        {
-          "type": "medium",
-          "effect": " +50% of max Health ",
-          "cost": 20
-        },
-        {
-          "type": "medium",
-          "effect": " +50% of max Health ",
-          "cost": 20
-        },
-        {
-          "type": "medium",
-          "effect": " +50% of max Health ",
-          "cost": 20
-        },
-        {
-          "type": "medium",
-          "effect": " +50% of max Health ",
-          "cost": 20
-        },
-        {
-          "type": "medium",
-          "effect": " +50% of max Health ",
-          "cost": 20
-        }
-      ]
+      "potions": []
     },
     "gear": {
       "helmet": null,
       "chestplate": null,
       "leggins": null,
-      "boots": {
-        "type": "boots",
-        "health": 30,
-        "cost": 150
-      }
+      "boots": null
     },
-    "attacktype": "vanquished",
+    "attacktype": "hit",
     "extraxp": 0,
-    "classtype": "\ud83e\uddd9\u200d\u2642\ufe0f",
+    "classtype": "\ud83d\udde1\ufe0f",
     "evasion": 1
   }
 ]
