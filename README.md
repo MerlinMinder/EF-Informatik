@@ -40,8 +40,14 @@ python3 -m pip install discord
 
 run the code below and paste your token when the text appears
 
+#### Windows
 ```
-Settoken.py
+py Settoken.py
+```
+
+#### Unix/macOS
+```
+python3 Settoken.py
 ```
 
 ### Running the bot
@@ -61,3 +67,9 @@ python3 Bot.py
 ```
 
 Have Fun!
+
+License
+![GPL-License](https://img.shields.io/github/license/Shabinder/SpotiFlyer?style=flat-square)
+----
+**GPL-3.0 License**
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
